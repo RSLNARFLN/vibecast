@@ -1,0 +1,38 @@
+.btn {
+  padding: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 48px;
+  border-radius: 4px;
+}
+
+.btn-lg {
+  background-color: $green;
+  color: white;
+
+  &:hover {
+    background-color: $green-hover;
+  }
+}
+
+.btn-tr {
+  background-color: rgba(0, 0, 0, 0.157);
+  color: white;
+  border: 1px solid white;
+
+  &:hover {
+    background-color: white;
+    color: $blue;
+  }
+}
+
+.btn-blue {
+  background-color: transparent;
+  border: 1px solid $blue;
+  color: $blue;
+
+  &:hover {
+    background-color: $blue;
+    color: white;
+  }
+}
