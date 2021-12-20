@@ -1,20 +1,22 @@
 html {
-  font-family: soleil;
+    font-family: soleil;
 
-  a {
-    text-decoration: none;
-  }
+    .wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
 
-  h2 {
-    font-size: 34px;
-    font-weight: 800;
-  }
+    a {
+        text-decoration: none;
+    }
 
-  .subtitle {
-    font-style: 19px;
-    line-height: 30px;
-  }
+    h2 {
+        font-size: 34px;
+        font-weight: 800;
+    }
+
+    .subtitle {
+        font-style: 19px;
+        line-height: 30px;
+    }
 }
-
-
-
