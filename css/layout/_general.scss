@@ -1,19 +1,61 @@
 html {
   font-family: soleil;
-
+  
   a {
     text-decoration: none;
   }
-
+  
   h2 {
     font-size: 34px;
     font-weight: 800;
   }
-
+  
   .subtitle {
     font-style: 19px;
     line-height: 30px;
   }
+}
+
+
+.swiper{
+  width: 80%;
+  height: 350px;
+  .swipper-wrapper{
+    width: 60%;
+  }
+  .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    div:first-child{
+      width: 70%;
+      margin: 0 auto;
+      background: rgb(221, 238, 237);
+      padding: 40px;
+      span{
+        color: $blue;
+      }
+      a{
+        color: $blue;
+      }
+    }
+    div:last-child{
+      width: 70%;
+      margin: 0 auto;
+      padding: 40px;
+      background: rgb(221, 238, 237);
+      color: rgb(114, 108, 108);
+      display: flex;
+      justify-content: space-around;
+      font-size: 16px;
+    }
+  }
+  .swiper-button-prev, .swiper-button-next {
+    color: rgb(114, 108, 108);
+  } 
+  .swper-pagination {
+    padding: 50px;
+  }        
 }
 
 
