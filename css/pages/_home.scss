@@ -43,6 +43,7 @@
     align-items: center;
     visibility: hidden;
     opacity: 0;
+    transition: .5s ease-in-out;
 }
 
 .trailer.active {
@@ -52,12 +53,12 @@
 
 .trailer iframe {
     position: relative;
-    width: 60%;
-    height: 60%;
+    width: 45%;
+    height: 50%;
     outline: none;
 }
 
-// fermeture
+// fermeture popup
 .close {
     display: flex;
     flex-direction: column;
@@ -75,6 +76,10 @@
         height: 3px;
         background: white;
         border-radius: 5px;
+    }
+
+    &:hover .close-lign {
+        background:$blue;
     }
 
     .line1 {
