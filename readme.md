@@ -23,6 +23,10 @@ This group project is a consolidation project, meant to make us work both our fr
 we made the Html structure togheter and
 divided the work.
 
+## Strategy
+
+![strategy](./img/strategy.jpg)
+
 ## Languages used?
 
 - HTML
