@@ -1,5 +1,7 @@
 main {
 
+  
+
   .ct-1 {
     display: flex;
     flex-direction: row;
@@ -78,5 +80,84 @@ main {
 
   .ct-3 {
     text-align: center;
+  }
+
+  .pricing {
+    background-color: $box-color;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .sub-pricing {
+      display: flex;
+
+      .list {
+        margin-right: 50px;
+        margin-bottom: 50px;
+        line-height: 35px;
+        font-size: 19px;
+      }
+
+      .price-box {
+        width: 264px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 0 20px;
+        margin-bottom: 50px;
+        line-height: 30px;
+
+        .price {
+          font-size: 48px;
+          margin: 20px 0;
+          margin-bottom: 10px;
+
+          span {
+            font-size: 14px;
+            color: #676B5B;
+          }
+        }
+
+        .reg-price {
+          font-size: 14px;
+        }
+
+        .box-title {
+          border-bottom: solid rgb(226, 226, 226) 1px;
+          display: flex;
+          flex-direction: column;
+          width: 60%;
+          margin: 15px auto;
+          padding: 15px;
+          font-size: 19px;
+
+          .two-months {
+            color: $blue;
+          }
+        }
+
+        .shop {
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          margin: 20px auto;
+
+          span {
+            font-size: 11px;
+            line-height: 16px;
+            color: #676B5B;
+            font-weight: normal;
+          }
+
+          a {
+            margin: 15px 0;
+          }
+        }
+      }
+    }
   }
 }

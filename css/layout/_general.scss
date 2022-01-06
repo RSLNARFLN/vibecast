@@ -3,7 +3,8 @@ html {
   width: 100vw;
 
   .wrapper {
-    margin: 0 10%;
+    width: 50%;
+    margin: 0 auto;
   }
 
   a {
@@ -20,6 +21,17 @@ html {
     line-height: 30px;
     margin-bottom: 24px;
     font-weight: normal;
+  }
+  // @media screen and (max-width: 1770px) {
+  //   .wrapper {
+  //     margin: 0 20%;
+  //   }
+  // }
+  @media screen and (max-width: 1470px) {
+    .wrapper {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 }
 
