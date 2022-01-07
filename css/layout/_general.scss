@@ -1,4 +1,5 @@
 html {
+
   font-family: soleil;
   
   a {
@@ -8,6 +9,7 @@ html {
   h2 {
     font-size: 34px;
     font-weight: 800;
+    text-align: center;
     span{
       font-size: 22px;
     }
@@ -22,6 +24,9 @@ html {
   }
 }
 
+    a {
+        text-decoration: none;
+    }
 
 .swiper{
   height: 250px;
@@ -110,3 +115,8 @@ html {
 }
 
 
+    .subtitle {
+        font-style: 19px;
+        line-height: 30px;
+    }
+}
