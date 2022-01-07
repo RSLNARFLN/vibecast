@@ -35,7 +35,7 @@ divided the work.
 - **Instructions** were given by our trainer [Olivier](https://github.com/ocrzia)
 
 ## Overview
-(lien)[https://rslnarfln.github.io/vibecast/]
+[GitHub page](https://rslnarfln.github.io/vibecast/)
 
 
 ## Improve
